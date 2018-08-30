@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Menu</title>
+
+  <style>
+  	body{
+	background: #cc6600;
+	font-weight: 0;
+	height: 0 auto;
+	}
+	.wrap {padding: 24px;}
+	.navbar {
+  overflow: hidden;
+  background-color: #4d2600;
+   position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  margin: 14px;
+  color: #f2f2f2;
+  text-align: center;
+  border-radius: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background: blue;
+}
+.navbar-buttom a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  border-radius: 16px;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  background: blue;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-buttom a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #1a0d00;
+  color: white;
+}
+.navbar a.login, a.signUp {float: right;}
+	
+form{padding: 20px 0;}
+	
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    user-select: none;
+    max-width: 700px;
+	margin: 0 auto;
+}
+/* Hide the browser's default checkbox */
+.container input {
+    position: relative;
+    opacity: 0;
+    text-align: center;
+}
+
+.checkmark {
+    position: absolute;
+    align-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+	button{
+		outline: 0;
+		background-color: grey;
+		border: 0;
+		padding: 10px 15px;
+		border-radius: 12px;
+		width: 280px;
+		margin: 36px;
+		font-size: 12px;}
+
+	h1{text-align: center;
+		color: white}
+	h2{text-align: center;
+		color: white}
+	h3{text-align: center;
+		color: white}
+
+		table, th, td {
+    border: 1px solid black;
+    outline: 0;	
+	border-radius: 12px;
+}
+
+table {width: 100%;}
+
+		.item {
+			width: 60%;
+		}
+		.cp {
+			width: 20%;
+		}
+
+  </style>
+
+</head>
+
+<body>
+
+  
+
+<div class="navbar">
+  		<a href="#home">Home</a>
+  		<a class="active" href="#Menu">Menu</a>
+  		<a href="#OurServices">Our Services</a>
+  		<a href="#Gallery">Gallery</a>
+  		<a href="#contact">Contact Us</a>
+  		<a href="#History">Order History</a>
+  		<a class="signUp" href="#signUp">Sign Up</a>
+  		<a class="login" href="#login">Login</a>
+</div>
+<div class="wrap">
+
+  			<h3>Welcome To:</h3>
+			<h1>Fast-Food-Fast</h1>
+			<h2>Restaurant</h2>
+			<h2>MENU</h2>
+			<h1>SOFT DRINKS & BEVERAGES</h1>
+
+		<div class="container">
+			<form>
+	<table>
+
+	<tr>
+    	<th class="cp">Check</th>
+    	<th class="item">Item(s)</th> 
+    	<th class="cp">Price</th>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  </table>
+
+  <h1>LUNCH</h1>
+
+  <table>
+
+	<tr>
+    	<th class="cp">Check</th>
+    	<th class="item">Item(s)</th> 
+    	<th class="cp">Price</th>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+  </table>
+
+   <h1>DINNER</h1>
+
+  <table>
+
+	<tr>
+    	<th class="cp">Check</th>
+    	<th class="item">Item(s)</th> 
+    	<th class="cp">Price</th>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+
+  	<tr>
+    	<td class="cp"><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+    	<td class="item">CHIPS MASALA(s)</td> 
+    	<td class="cp">250/-</td>
+  	</tr>
+  </table>
+
+				<button type="submit">SUBMIT ORDER</button>
+</form>
+		</div>
+
+		<div class="navbar-buttom">
+  		<a href="#home">Home</a>
+  		<a href="#OurServices">Our Services</a>
+  		<a href="#Gallery">Gallery</a>
+  		
+</div>
+
+</body>
+
+</html>
